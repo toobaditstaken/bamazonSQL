@@ -9,6 +9,7 @@
   "author": "Alex Abbott",
   "license": "ISC",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "inquirer": "^6.3.1",
     "mysql": "^2.17.1"
   }
