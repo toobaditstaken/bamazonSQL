@@ -9,7 +9,7 @@ Bamazon is an App that immitates the functions of amazon by displaying its infor
   * Starting the app should give you a console view like this
   ![](Node_picture1.jpg) 
   
-  * After inputing your values into the questions the application does tha math for the total for you.
+  * After inputing your values into the questions the application does the math for the total for you.
   ![](Node_picture2.jpg)
   
   * When you start the application again the values of the table stay changed based upon previous user inputs.
