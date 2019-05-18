@@ -30,6 +30,24 @@ function displayAll() {
         console.log(theDisplayTable.toString());
         inquireForPurchase();
     });
-
-
 };
+
+function inquireForPurchase() {
+    inquirer.prompt([
+        {
+            name: "ID",
+            type: "input",
+            message: "What is the item number of the item you wish to purchase?"
+        }, {
+            name: 'Quantity',
+            type: 'input',
+            message: "How many would you like to buy?"
+        },
+
+    ]).then(function(answers) {
+        var quantityDesired = answers.Quantity;
+        var IDDesired = answers.ID;
+        purchaseFromDatabase(IDDesired, quantityDesired);
+    });
+
+}
