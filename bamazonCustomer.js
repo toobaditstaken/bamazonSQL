@@ -37,11 +37,11 @@ function inquireForPurchase() {
         {
             name: "ID",
             type: "input",
-            message: "What is the item number of the item you wish to purchase?"
+            message: "What is the item ID number of the item you wish to purchase?"
         }, {
             name: 'Quantity',
             type: 'input',
-            message: "How many would you like to buy?"
+            message: "How many would you like to purchase?"
         },
 
     ]).then(function(answers) {
@@ -57,11 +57,11 @@ function purchaseFromDatabase(ID, quantityNeeded) {
 
         if (quantityNeeded <= response[0].StockQuantity) {
             var totalCost = response[0].Price * quantityNeeded;
-            console.log("We have what you need! I'll have your order right out!");
+            console.log("We have what you want! I'll have your purchase ready for you!");
             console.log("Your total cost for " + quantityNeeded + " " + response[0].ProductName + " is " + totalCost + ". Thank you for your Business!");
             connection.query('UPDATE Products SET StockQuantity = StockQuantity - ' + quantityNeeded + ' WHERE ItemID = ' + ID);
         } else {
-            console.log("Our apologies. We don't have enough " + response[0].ProductName + " to fulfill your order.");
+            console.log("We're sorry. We currently don't have enough " + response[0].ProductName + " to fulfill your order.");
         };
         displayAll();
     });
