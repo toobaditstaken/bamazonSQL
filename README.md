@@ -1,20 +1,20 @@
 # bamazonSQL
 
-Node_picture1.jpg
-![Node Step one](Node_picture1.jpg)
-
 # What is Bamazon?
 
 Bamazon is an App that immitates the functions of amazon by displaying its information on node in a table, you are given the option to purchase items on the table and what amoun you want. The database of the table is then updated when the user chosses items.
 
 # How does it work?.
 
-  ![](Node_picture1.jpg) 
   * Starting the app should give you a console view like this
-  ![](Node_picture2.jpg)
+  ![](Node_picture1.jpg) 
+  
   * After inputing your values into the questions the application does tha math for the total for you.
-  ![](Node_picture3.jpg)  
+  ![](Node_picture2.jpg)
+  
   * When you start the application again the values of the table stay changed based upon previous user inputs.
+  ![](Node_picture3.jpg)  
+  
 
 # Instructions on how to use Bamazon
 
