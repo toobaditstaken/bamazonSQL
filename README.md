@@ -17,7 +17,7 @@ Bamazon is an App that immitates the functions of amazon by displaying its infor
 
 
   * Here is a gif showing the whole process.
-  ![](bamazon_gif.gif)
+  ![](Bamazon_gif.gif)
   
 
 # Instructions on how to use Bamazon
