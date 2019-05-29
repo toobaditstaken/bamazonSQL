@@ -14,6 +14,10 @@ Bamazon is an App that immitates the functions of amazon by displaying its infor
   
   * When you start the application again the values of the table stay changed based upon previous user inputs.
   ![](Node_picture3.jpg)  
+
+
+  * Here is a gif showing the whole process.
+  ![](Bamazon_gif.gif)
   
 
 # Instructions on how to use Bamazon
